@@ -13,7 +13,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 2rem;
 }
 main {
   display: grid;
@@ -22,7 +21,7 @@ main {
   column-gap: 3rem;
   align-items: center;
   justify-content: center;
-  margin: 2rem;
+  margin: 1rem;
   
 }
 main img {
@@ -52,4 +51,5 @@ main img {
     grid-template-rows: auto auto;
     row-gap: 0.5rem;
   }
+ 
 }
