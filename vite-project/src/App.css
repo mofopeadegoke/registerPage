@@ -13,7 +13,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1rem;
+  padding: 2rem;
 }
 main {
   display: grid;
@@ -52,5 +52,7 @@ main img {
     grid-template-rows: auto auto;
     row-gap: 0.5rem;
   }
- 
+  body {
+    padding: 1rem;
+  }
 }
