@@ -1,6 +1,5 @@
 import "./App.css";
 import RegBox from "./components/register";
-import sideImg from "./images/image.svg";
 import logo from "./images/logoDias.png";
 
 export default function RegPage() {
