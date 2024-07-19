@@ -8,8 +8,8 @@ export default function RegBox() {
         <img src={logo} alt="The logo of SSA" />
         <h1>Register</h1>
         <p>
-          Enter your details to register for the event: LEADERSHIP Dialogue with
-          Senior special adviser to President Bola Ahmed Tinubu GCFR
+          Enter your details to register for the Event: Leadership Dialogue with
+          the Senior special adviser to president Bola Ahmed Tinubu GCFR
         </p>
         <form action="">
           <div className="firstRow">
