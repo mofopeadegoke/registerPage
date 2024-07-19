@@ -13,7 +13,10 @@ export default function RegPage() {
           className="leftImg"
         />
       </main>
-      <footer></footer>
+      <footer>
+        <span>Design by Ada Reinhold</span>
+        <span>&copy; 2024</span>
+      </footer>
     </>
   );
 }

@@ -29,6 +29,12 @@ main img {
   width: 100%;
 }
 
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 @media all and (max-width: 1100px) {
   main img{
     display: none;
@@ -55,4 +61,5 @@ main img {
   body {
     padding: 1rem;
   }
+  
 }
