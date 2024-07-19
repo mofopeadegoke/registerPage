@@ -1,11 +1,17 @@
 import "./styles/register.css";
+import logo from "../images/logoDias.png";
 
 export default function RegBox() {
   return (
     <>
       <article className="regBoxBody">
+        <img src={logo} alt="The logo of SSA" />
         <h1>Register</h1>
-        <p>Enter your details to register for the NANS Event</p>
+        <p>
+          Enter your details to register for the OFFICE OF Senior special
+          adviser to president LEADERSHIP Dialogue with Senior special adviser
+          to Nigeria president Event
+        </p>
         <form action="">
           <div className="firstRow">
             <label className="col">
@@ -19,6 +25,14 @@ export default function RegBox() {
                 Last Name <span className="red">*</span>
               </span>
               <input type="text" name="lname" required />
+            </label>
+          </div>
+          <div className="emailRow gridRow">
+            <label className="col">
+              <span>
+                Email <span className="red">*</span>
+              </span>
+              <input type="email" name="email" required />
             </label>
           </div>
           <div className="secondRow gridRow">

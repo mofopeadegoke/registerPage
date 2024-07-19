@@ -1,17 +1,14 @@
 import "./App.css";
 import RegBox from "./components/register";
 import sideImg from "./images/image.svg";
+import logo from "./images/logoDias.png";
 
 export default function RegPage() {
   return (
     <>
       <main>
         <RegBox />
-        <img
-          src={sideImg}
-          alt="A person floating mid air and smiling with a flower vase below them"
-          className="leftImg"
-        />
+        <img src={logo} alt="The logo of SSA" className="leftImg" />
       </main>
       <footer>
         <span>Design by Ada Reinhold</span>
