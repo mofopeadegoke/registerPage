@@ -11,7 +11,7 @@ export default function RegBox() {
           Enter your details to register for the Event: Leadership Dialogue with
           the Senior special adviser to president Bola Ahmed Tinubu GCFR
         </p>
-        <form action="">
+        <form action="https://formspree.io/f/xpwaqrgl" method="POST">
           <div className="firstRow">
             <label className="col">
               <span>
