@@ -1,5 +1,21 @@
 import "./styles/register.css";
 import logo from "../images/logoDias.png";
+// import { useEffect } from "react";
+
+// function isEmailUsedInFormspree() {
+//   const email = document.querySelector("input[name=email]");
+//   email?.addEventListener("change", async () => {
+//     const response = await fetch(
+//       `https://formspree.io/f/xpwaqrgl?email=${email?.value}`
+//     );
+//     const data = await response.json();
+//     console.log(data);
+//   });
+// }
+
+// useEffect(() => {
+//   isEmailUsedInFormspree();
+// }, []);
 
 export default function RegBox() {
   return (
