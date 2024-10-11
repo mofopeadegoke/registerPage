@@ -22,10 +22,11 @@ export default function RegBox() {
     <>
       <article className="regBoxBody">
         <img src={logo} alt="The logo of SSA" />
-        <h1>Register</h1>
+        <h1>Join Us for the International Students Day</h1>
         <p>
-          Enter your details to register for the Event: Leadership Dialogue with
-          the Senior special adviser to president Bola Ahmed Tinubu GCFR
+          The office of the Senior Special Advisor to the President of Nigeria
+          on Student engagement is pleased to invite you to the International
+          Students Day on the 17th of November 2024.
         </p>
         <form action="https://formspree.io/f/xpwaqrgl" method="POST">
           <div className="firstRow">

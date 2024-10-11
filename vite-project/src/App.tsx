@@ -10,8 +10,12 @@ export default function RegPage() {
         <img src={logo} alt="The logo of SSA" className="leftImg" />
       </main>
       <footer>
-        <span>Design by Ada Reinhold</span>
-        <span>&copy; 2024</span>
+        <span>
+          For more details, contact Dr. Opeoluwa Seun Ojekemi - Liason Diaspora
+          Officer to the Office of the Senior Special Advisor to the President
+          on Student engagement. <br /> Phone number: +90 542 884 73 58
+        </span>
+        <span className="credits">Design by Ada Reinhold</span>
       </footer>
     </>
   );
