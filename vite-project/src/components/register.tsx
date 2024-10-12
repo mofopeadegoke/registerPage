@@ -53,7 +53,7 @@ export default function RegBox() {
           </div>
           <div className="secondRow gridRow">
             <label className="col">
-              <span>Country</span>
+              <span>Country of Residence</span>
               <select name="countries">
                 <option value="Afghanistan">Afghanistan</option>
                 <option value="Albania">Albania</option>
